@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <P> Name: Taiwo Oduwoga</P>
+    <p> My Address: 1, Darlington Street, Lagos</p>
+    <p> Phone Number: +2347062999674</p>
+    <p> Email: tessybabe2003@yahoo.com</p>
+    <p> Instagram:<a target="_blank"href="https://www.instagram.com">@instagram</a></p>
+    <p> Twitter: <a target="_blank"href="https://www.twitter.com">@twitter</a></p>
+    <hr>
+    <form action="mailto:tessybabe2003@yahoo.com" method="post">
+    <label for="Your Name">Name</label>
+    <input type="text" name="Your Name" value="" placeholder="please enter your name"> <br>
+    <br>
+    <label for="email">Email</label>
+    <input type="text" name="email" value="" placeholder="please enter your email address"><br>
+    <br>
+    <label for="email">DOB</label>
+    <input type="date" name="dob" value="" placeholder="please enter your DOB"><br>
+    <br> 
+    
+    <label for="mobile">Phone Number</label>
+    <select name="countrycode" id="">
+    <option data-countrycode="NG" value="234" selected>NG(+234)</option>
+    <optgroup label="other countries">
+    <option data-countrycode="OZ" value="213">Algeria(+213)</option>    
+    <option data-countrycode="AO" value="376">Andorra(+376)</option>
+    <option data-countrycode="GB" value="44">UK(+44)</option>
+    <option data-countrycode="USA" value="1">USA(+1)</option><br>
+    <input type="number" name="mobile" value="" placeholder="please enter your number">
+    </select>
+</optgroup>
+    <br>
+    <br>
+    <label for="occupation">Occupation</label>
+    <select name="occupation" id="occupation" required>
+    <option value="select your occupation">select your occupation</option>
+    <option value="select your occupation">Doctor</option> 
+    <option value="select your occupation">Pharmacist</option> 
+    <option value="select your occupation">Pharmacologist</option> 
+    <option value="select your occupation">Nurses</option> 
+    <option value="select your occupation">Lawyer</option> 
+    <option value="select your occupation">Web developer</option> 
+    <option value="select your occupation">Student</option> 
+    <option value="select your occupation">Others</option> 
+    </select><br>
+    <br>
+    <label for="Qualification">Qualification</label>
+    <select name="Qualification" id="Qualification" required>
+    <option value="select your qualification">select your qualification</option> 
+    <option value="select your qualification">SSCE</option> 
+    <option value="select your qualification">NCE</option> 
+    <option value="select your qualification">OND</option> 
+    <option value="select your qualification">HND</option> 
+    <option value="select your qualification">BSC</option> 
+    <option value="select your qualification">MSC</option> 
+    <option value="select your qualification">Others</option> 
+    </select>
+    <br>
+    <br>
+    <label for="message">Message</label> <br>
+    <textarea name="message" cols="30" rows="10" placeholder="please enter your message"></textarea><br>
+    <br>
+    <button type="submit">Send</button>
+
+    </form> 
+</body>
+</html>
